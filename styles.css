@@ -1,0 +1,127 @@
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    text-align: center;
+}
+
+.gabrielle {
+    font-size: 45px;
+    font-family: Fraunces;
+    kerning: none;
+    line-height: 1em;
+    width: 330px
+    
+}
+
+p { 
+    font-size: 18px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Montserrat;
+    line-height: 1.75;
+    width: 300px;
+}
+
+.maindiv {
+    background-color: white;
+    border-radius: 20px;
+    position:relative;
+    margin: 200px 400px auto 400px;
+    height: 650px;
+    display: block;
+    width:840px;
+
+}
+
+/*both text div and img div may need to be together in the same div for border radius to work. */
+
+ 
+img {
+    border-radius: 20px 0px 0px 20px;
+    width: 50%;
+    margin-left: 0;
+    padding-right: 10px;
+    height: 650px;
+    margin-right: 0px;
+    float: left;
+
+}
+
+.text {
+    margin-top: 35px;
+    float: right;
+    width: 375px;
+    text-align: left;
+    margin-left:5px;
+    padding-left: 5px;
+    
+}
+
+button {
+    width:325px;
+    height: 70px;
+    background-color: #006442;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-size: 1em;
+    border-width: 0;
+}
+
+.prices { 
+    height: 120px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.price1 {
+    font-family: Fraunces;
+    display: inline-block;
+    padding-right: 20px;
+    color: #006442;
+    font-size: 1.7em;
+}
+
+h2 {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    
+    
+}
+
+h3 {
+    display: inline;
+    font-size: 1.2em;
+    font-weight:lighter;
+    text-decoration: line-through;
+    font-family: 'Montserrate', sans-serif;
+}
+
+    .price2 {
+        display: inline-block;
+        vertical-align:super;
+    
+    }
+
+.attribution {
+    margin-top: 200px;
+}
+
+.cart-text {
+    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.icon {
+    width:20px;
+    margin-right:15px;
+    filter: invert(100%);
+}
